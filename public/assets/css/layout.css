@@ -462,7 +462,9 @@ table {
     }
 
   /* Main */
-
+  #main {
+    margin-left: 20%;
+  }
     #main {
       -moz-backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
@@ -473,7 +475,7 @@ table {
       -ms-transition: -ms-transform 0.5s ease;
       transition: transform 0.5s ease;
       padding-bottom: 1px;
-      margin-left: 0;
+      /* margin-left: 0; */
     }
 
       #main > section {
@@ -488,7 +490,9 @@ table {
 
 
 @media screen and (max-width: 736px) {
-
+  #main {
+    margin-left: 0;
+  }
   #header {
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
