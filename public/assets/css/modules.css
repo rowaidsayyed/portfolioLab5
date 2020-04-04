@@ -1594,7 +1594,7 @@ font-style: italic;
 .image.avatar48 {
   width: 48px;
   height: 48px;
-  background: #f00;
+  background: rgb(63, 56, 56);
 }
 
   .image.avatar48 img {
@@ -2017,7 +2017,10 @@ button,
   width: 100%;
   z-index: -999999;
 }
-
+/* #main > section.four {
+  background-color: #e8edec;
+  margin-left: 20%;
+} */
   /**********************************************************************************************/
   #main > section.two {
     background-color: #f5fafa;
@@ -2029,6 +2032,7 @@ button,
 
   #main > section.four {
     background-color: #e8edec;
+    /* margin-left: 0; */
   }
 
   @media screen and (max-width: 960px) {
