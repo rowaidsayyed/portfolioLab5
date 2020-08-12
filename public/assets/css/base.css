@@ -17,3 +17,14 @@ body {
   line-height: 1.75em;
   color: #888;
 }
+
+.cvButton{
+  background-color: #82aeac;
+  color: #f1f6f6;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.cvButton:hover{
+  color: #212528;
+}
