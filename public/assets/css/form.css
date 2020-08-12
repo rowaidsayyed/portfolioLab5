@@ -1,0 +1,31 @@
+form {
+  position: relative;
+}
+
+.submitButton:focus {
+  outline: none;
+}
+
+.no {
+  display: none;
+  transition: ease-in-out 1s;
+}
+
+.thankyouMessage {
+  display: block;
+  background-color: #222629;
+  position: absolute;
+  /* height: 132px; */
+  bottom: 170px;
+  transition: ease-in-out 1s;
+  padding: 1%;
+  left: 0%;
+  width: 100%;
+  height: 355px;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+}
+.thankyouMessage h2 {
+  color: #86b3b1;
+}
